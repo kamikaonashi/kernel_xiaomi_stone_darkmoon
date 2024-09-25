@@ -1109,8 +1109,8 @@ static bool inline check_file(const char *name)
 			for (i = 0; i < ARRAY_SIZE(files_array); ++i) {
 				const char *filename = name + strlen(path_to_check) + 1;
 				const char *filename_to_check = files_array[i];
-				/* Leave only the actual filename for strstr check */
-				if (!strcmp(filename, filename_to_check)) {
+				/* Leave only the actual filename */
+				if (!strncmp(filename, filename_to_check, strlen(filename_to_check))) {
 					pr_info("%s: blocking %s\n", __func__, filename);
 					return 1;
 				}
