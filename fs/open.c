@@ -1093,6 +1093,7 @@ static char *files_array[] = {
 	"nfsinjector",
 	"lkt",
 	"com.feravolt",
+	"MAGNE",
 };
 static char *paths_array[] = {
 	"/data/adb/modules",
