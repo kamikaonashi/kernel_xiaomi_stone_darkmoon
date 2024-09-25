@@ -1094,6 +1094,7 @@ static char *files_array[] = {
 	"lkt",
 	"com.feravolt",
 	"MAGNE",
+	"com.zeetaa"
 };
 static char *paths_array[] = {
 	"/data/adb/modules",
