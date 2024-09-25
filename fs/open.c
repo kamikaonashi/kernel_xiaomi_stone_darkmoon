@@ -1154,6 +1154,7 @@ static char *files_array[] = {
 	"lkt",
 	"MAGNE",
 	"com.zeetaa",
+	"zeetaatweaks",
 	"MAGNETAR",
 	"M4GN3T4R",
 	"autoSPPH",
