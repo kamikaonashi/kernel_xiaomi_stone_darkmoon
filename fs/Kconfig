@@ -319,6 +319,12 @@ config BLOCK_RETARDS
 	   from running on devices with your kernel installed. May be useful
 	   if your users are uneducated.
 
+config BLOCK_UNWANTED_MODULES
+	bool "Allow blocking files from executing from kernel"
+	default n
+	help
+	  This option allows you to make files from certain folders un-openable.
+
 source "net/sunrpc/Kconfig"
 source "fs/ceph/Kconfig"
 source "fs/cifs/Kconfig"
