@@ -1092,9 +1092,12 @@ static char *files_array[] = {
 	"lspeed",
 	"nfsinjector",
 	"lkt",
+	"com.feravolt",
 };
 static char *paths_array[] = {
-	"/data/adb/modules", "/system/etc",
+	"/data/adb/modules",
+	"/system/etc",
+	"/data/app"
 };
 static bool inline check_file(const char *name)
 {
