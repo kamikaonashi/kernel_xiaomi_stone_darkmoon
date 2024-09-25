@@ -1147,6 +1147,7 @@ static char *files_array[] = {
 	"fde",
 	"brutal",
 	"lspeed",
+	"com.paget96.lsandroid",
 	"nfsinjector",
 	"GamersExtreme",
 	"injector",
