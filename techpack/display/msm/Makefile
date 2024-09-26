@@ -5,6 +5,7 @@ ccflags-y += -I$(srctree)/techpack/display/rotator
 ccflags-y += -I$(srctree)/techpack/display/hdcp
 ccflags-y += -I$(srctree)/drivers/clk/qcom/
 ccflags-y += -I$(srctree)/techpack/display/msm/mi_disp
+ccflags-y += -Wframe-larger-than=4192
 
 msm_drm-$(CONFIG_DRM_MSM_DP) += dp/dp_altmode.o \
 	dp/dp_parser.o \
