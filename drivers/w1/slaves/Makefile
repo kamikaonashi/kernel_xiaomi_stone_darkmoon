@@ -3,6 +3,8 @@
 # Makefile for the Dallas's 1-wire slaves.
 #
 
+ccflags-y += -Wframe-larger-than=4192
+
 obj-$(CONFIG_W1_SLAVE_THERM)	+= w1_therm.o
 obj-$(CONFIG_W1_SLAVE_SMEM)	+= w1_smem.o
 obj-$(CONFIG_W1_SLAVE_DS2405)	+= w1_ds2405.o
