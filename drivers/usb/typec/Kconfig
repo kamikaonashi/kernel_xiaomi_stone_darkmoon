@@ -44,6 +44,8 @@ menuconfig TYPEC
 	  <https://www.kernel.org/doc/html/latest/driver-api/usb/typec.html>
 	  and ABI (Documentation/ABI/testing/sysfs-class-typec).
 
+source "drivers/usb/typec/tcpc/Kconfig"
+
 if TYPEC
 
 source "drivers/usb/typec/tcpm/Kconfig"
@@ -66,4 +68,3 @@ source "drivers/usb/typec/mux/Kconfig"
 source "drivers/usb/typec/altmodes/Kconfig"
 
 endif # TYPEC
-source "drivers/usb/typec/tcpc/Kconfig"
