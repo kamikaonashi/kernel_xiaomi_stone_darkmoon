@@ -1106,12 +1106,12 @@
 
 		cpu@0 {
 			#cooling-cells = <0x2>;
-			capacity-dmips-mhz = <0x400>;
+			capacity-dmips-mhz = <0x1A1>;
 			compatible = "qcom,kryo";
 			cpu-idle-states = <0x2 0x3>;
 			cpu-release-addr = <0x0 0x50000000>;
 			device_type = "cpu";
-			dynamic-power-coefficient = <0x64>;
+			dynamic-power-coefficient = <0x106>;
 			enable-method = "psci";
 			next-level-cache = <0x4>;
 			phandle = <0x10>;
@@ -1133,12 +1133,12 @@
 		};
 
 		cpu@100 {
-			capacity-dmips-mhz = <0x400>;
+			capacity-dmips-mhz = <0x1A1>;
 			compatible = "qcom,kryo";
 			cpu-idle-states = <0x2 0x3>;
 			cpu-release-addr = <0x0 0x50000000>;
 			device_type = "cpu";
-			dynamic-power-coefficient = <0x64>;
+			dynamic-power-coefficient = <0x106>;
 			enable-method = "psci";
 			next-level-cache = <0x7>;
 			phandle = <0x11>;
@@ -1154,12 +1154,12 @@
 		};
 
 		cpu@200 {
-			capacity-dmips-mhz = <0x400>;
+			capacity-dmips-mhz = <0x1A1>;
 			compatible = "qcom,kryo";
 			cpu-idle-states = <0x2 0x3>;
 			cpu-release-addr = <0x0 0x50000000>;
 			device_type = "cpu";
-			dynamic-power-coefficient = <0x64>;
+			dynamic-power-coefficient = <0x106>;
 			enable-method = "psci";
 			next-level-cache = <0x8>;
 			phandle = <0x12>;
@@ -1175,12 +1175,12 @@
 		};
 
 		cpu@300 {
-			capacity-dmips-mhz = <0x400>;
+			capacity-dmips-mhz = <0x1A1>;
 			compatible = "qcom,kryo";
 			cpu-idle-states = <0x2 0x3>;
 			cpu-release-addr = <0x0 0x50000000>;
 			device_type = "cpu";
-			dynamic-power-coefficient = <0x64>;
+			dynamic-power-coefficient = <0x106>;
 			enable-method = "psci";
 			next-level-cache = <0x9>;
 			phandle = <0x13>;
@@ -1196,12 +1196,12 @@
 		};
 
 		cpu@400 {
-			capacity-dmips-mhz = <0x400>;
+			capacity-dmips-mhz = <0x1A1>;
 			compatible = "qcom,kryo";
 			cpu-idle-states = <0x2 0x3>;
 			cpu-release-addr = <0x0 0x50000000>;
 			device_type = "cpu";
-			dynamic-power-coefficient = <0x64>;
+			dynamic-power-coefficient = <0x106>;
 			enable-method = "psci";
 			next-level-cache = <0xa>;
 			phandle = <0x14>;
@@ -1217,12 +1217,12 @@
 		};
 
 		cpu@500 {
-			capacity-dmips-mhz = <0x400>;
+			capacity-dmips-mhz = <0x1A1>;
 			compatible = "qcom,kryo";
 			cpu-idle-states = <0x2 0x3>;
 			cpu-release-addr = <0x0 0x50000000>;
 			device_type = "cpu";
-			dynamic-power-coefficient = <0x64>;
+			dynamic-power-coefficient = <0x106>;
 			enable-method = "psci";
 			next-level-cache = <0xb>;
 			phandle = <0x15>;
@@ -1239,12 +1239,12 @@
 
 		cpu@600 {
 			#cooling-cells = <0x2>;
-			capacity-dmips-mhz = <0x79a>;
+			capacity-dmips-mhz = <0x400>;
 			compatible = "qcom,kryo";
 			cpu-idle-states = <0xc 0xd>;
 			cpu-release-addr = <0x0 0x50000000>;
 			device_type = "cpu";
-			dynamic-power-coefficient = <0x208>;
+			dynamic-power-coefficient = <0x169>;
 			enable-method = "psci";
 			next-level-cache = <0xe>;
 			phandle = <0x16>;
@@ -1260,12 +1260,12 @@
 		};
 
 		cpu@700 {
-			capacity-dmips-mhz = <0x79a>;
+			capacity-dmips-mhz = <0x400>;
 			compatible = "qcom,kryo";
 			cpu-idle-states = <0xc 0xd>;
 			cpu-release-addr = <0x0 0x50000000>;
 			device_type = "cpu";
-			dynamic-power-coefficient = <0x208>;
+			dynamic-power-coefficient = <0x169>;
 			enable-method = "psci";
 			next-level-cache = <0xf>;
 			phandle = <0x17>;
