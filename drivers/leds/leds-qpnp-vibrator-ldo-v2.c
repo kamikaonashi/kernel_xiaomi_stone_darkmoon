@@ -19,9 +19,9 @@
  * overdrive(30ms).
  */
 #define QPNP_VIB_MIN_PLAY_MS		50
-#define QPNP_VIB_PLAY_MS		5000
+#define QPNP_VIB_PLAY_MS		100
 #define QPNP_VIB_MAX_PLAY_MS		15000
-#define QPNP_VIB_OVERDRIVE_PLAY_MS	30
+#define QPNP_VIB_OVERDRIVE_PLAY_MS	20
 
 #define VIB_LDO_ACTIVE    "vib_ldo_active"
 #define VIB_LDO_SUSPEND    "vib_ldo_suspend"
@@ -248,8 +248,7 @@ static struct device_attribute qpnp_vib_attrs[] = {
 static int qpnp_vib_parse_dt(struct device *dev, struct vib_ldo_chip *chip)
 {
 
-	chip->disable_overdrive = of_property_read_bool(dev->of_node,
-					"qcom,disable-overdrive");
+	chip->disable_overdrive = false;
 
 	return 0;
 }
