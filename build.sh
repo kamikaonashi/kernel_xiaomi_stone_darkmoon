@@ -152,7 +152,7 @@ function kernelsu() {
 DEVICE_MODEL="Redmi Note 12 5G/POCO X5 5G"
 DEVICE_CODENAME="stone"
 BUILD_TIME="$(TZ="Asia/Jakarta" date "+%m%d%Y")"
-export DEVICE_DEFCONFIG="holi-qgki_defconfig"
+export DEVICE_DEFCONFIG="stone_defconfig"
 export ARCH="arm64"
 export KBUILD_BUILD_USER="kami"
 export KBUILD_BUILD_HOST="yourMom"
