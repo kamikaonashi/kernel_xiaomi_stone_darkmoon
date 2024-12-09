@@ -287,6 +287,11 @@ struct dsi_panel {
 	u32 flat_mode;
 	bool is_aod;
 	struct delayed_work nolp_bl_delay_work;
+
+#ifdef CONFIG_DRM_SDE_EXPO
+	bool dimlayer_exposure;
+#endif
+
 };
 
 struct dsi_read_config {
